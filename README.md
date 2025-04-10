@@ -1,2 +1,2 @@
-# codeforces-problem-browsre
-Very simple TUI problem browser for codeforces.com
+# codeforces-problem-browser
+Bare bones TUI problem browser for codeforces.com
