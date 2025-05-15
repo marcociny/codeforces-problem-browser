@@ -1,6 +1,6 @@
 # codeforces-problem-browser
 Light and fast TUI problem browser for codeforces.com.
-# Usage
+## Usage
 Next page: `Right arrow`\
 Previous page: `Left arrow`\
 Move up: `Up arrow`\
