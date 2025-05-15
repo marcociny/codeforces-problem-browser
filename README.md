@@ -1,3 +1,8 @@
 # codeforces-problem-browser
-Bare bones TUI problem browser for codeforces.com. \
-Left/right arrow keys to change pages, up/down arrow keys to move up or down, enter to open the selected problem in your web browser.
+Light and fast TUI problem browser for codeforces.com.
+# Usage
+Next page: `Right arrow`\
+Previous page: `Left arrow`\
+Move up: `Up arrow`\
+Move down: `Down arrow`\
+Open selected problem: `Enter`\
