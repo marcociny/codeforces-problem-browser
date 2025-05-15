@@ -5,4 +5,4 @@ Next page: `Right arrow`\
 Previous page: `Left arrow`\
 Move up: `Up arrow`\
 Move down: `Down arrow`\
-Open selected problem: `Enter`\
+Open selected problem: `Enter`
