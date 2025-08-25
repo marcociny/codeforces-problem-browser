@@ -137,7 +137,10 @@ def handle_input(w, problems, input, selected, start):
     elif input == curses.KEY_LEFT:
         start -= lines
     elif input == 10: # enter key
-        webbrowser.open("https://codeforces.com/problemset/problem/" + str(problems.problems[selected+start]["contestId"]) + "/" + str(problems.problems[selected+start]["index"]))
+        try:
+            webbrowser.open("https://codeforces.com/problemset/problem/" + str(problems.problems[selected+start]["contestId"]) + "/" + str(problems.problems[selected+start]["index"]))
+        except IndexError:
+            pass
     elif input == ord("q"):
         if problems.is_filter_active:
             problems.unset_filters()
@@ -185,4 +188,7 @@ if __name__ == "__main__":
         print("Alternatively, you can edit the USER_HANDLE field in the script.")
         exit()
     USER_HANDLE = sys.argv[1]
-    curses.wrapper(main)
+    try:
+        curses.wrapper(main)
+    except KeyboardInterrupt:
+        sys.exit(0)
